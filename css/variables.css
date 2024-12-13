@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #FF4500;
+  --primary-light: #FF7F50;
+  --primary-dark: #CC3700;
+  --text-color: #333333;
+  --bg-color: #ffffff;
+  --gray-100: #f9f9f9;
+  --gray-200: #eaeaea;
+  --gray-800: #333333;
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 8px 16px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.15);
+  --border-radius: 12px;
+  --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  --gradient-dark: linear-gradient(135deg, #2d3436, #636e72);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

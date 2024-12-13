@@ -1,0 +1,22 @@
+@import '../variables.css';
+@import '../animations.css';
+
+.hero-image {
+  margin-top: 3rem;
+  position: relative;
+  display: inline-block;
+  animation: float 6s ease-in-out infinite;
+}
+
+.phone-mockup {
+  max-width: 300px;
+  border-radius: var(--border-radius);
+  filter: drop-shadow(var(--shadow-lg));
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .phone-mockup {
+    max-width: 80%;
+  }
+}
